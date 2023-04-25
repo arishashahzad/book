@@ -1,0 +1,44 @@
+<p>edit works!</p>
+
+<div class="container">
+    <h1>Enter new Date</h1>
+    <form [formGroup]="form"(ngSubmit)="submit()">
+        <div class="form-group">
+            <label for="">title</label>
+            <input formControlName="title" class ="form-control"type="text" id="title" >
+            <div  
+            *ngIf="fetch['title'].touched && fetch['title'].invalid" class="alert alert-danger">
+                <div  *ngIf="fetch['title'].errors &&fetch['title'].errors['required']">Fill Your First Name</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">author</label>
+            <input formControlName="author" class ="form-control"type="text"  id="author">
+            <div  
+            *ngIf="fetch['author'].touched && fetch['author'].invalid" class="alert alert-danger">
+                <div  *ngIf="fetch['author'].errors &&fetch['author'].errors['required']">Fill your full name
+
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <label for="">genere</label>
+            <input formControlName="genere"  class ="form-control"type="text" name="" id="genere'">
+            <div  
+            *ngIf="fetch['genere'].touched && fetch['genere'].invalid" class="alert alert-danger">
+                <div  *ngIf="fetch['genere'].errors &&fetch['genere'].errors['required']">Fill Your email</div>
+            </div>
+        </div>
+        <div class="">
+            <label for="">publication_year</label>
+            <input formControlName="publication_year" class ="form-control" type="text" name="" id=" publication_year">
+            <div  
+            *ngIf="fetch['publication_year'].touched && fetch['publication_year'].invalid" class="alert alert-danger">
+                <div  *ngIf="fetch['publication_year'].errors &&fetch['publication_year'].errors['required']">Fill Your password</div>
+            </div>
+        </div>
+    
+       
+        <button class="btn btn-primary" type="submit" [disabled]="!form.valid">submit</button>
+    </form>
+</div>

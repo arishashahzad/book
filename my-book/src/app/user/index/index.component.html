@@ -1,0 +1,31 @@
+<p>index works!</p>
+
+<div class="container">
+    <a href ="#"[routerLink]="['/user/create']" class="btn btn-success">Create</a>
+    <table class="table table-bordered">
+<tr>
+    <th> Id</th>
+    <th> title</th>
+    <th>author</th>
+    <th>genere</th>
+    <th>publication_year</th>
+    <th>Action</th>
+</tr>
+
+<tr *ngFor="let item of body">
+    <td>{{item.id}}</td>
+    <td>{{item.title}}</td>
+    <td>{{item.author}}</td>
+    <td>{{item.genere}}</td>
+    <td>{{item.publication_year}}</td>
+
+
+<td>
+    <a href="#" class="btn btn-success" [routerLink]="['/user/',item.id ,'edit']">edit</a>
+  
+
+    <button (click)="deletebook(item.id)" class="btn btn-danger">Delete</button>|
+</td>
+</tr>
+    </table>
+</div>

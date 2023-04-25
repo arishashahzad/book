@@ -1,0 +1,147 @@
+{
+  "books": [
+    {
+      "id": 3,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "publication_year": 1925,
+      "genere": "George Orwell"
+    },
+    {
+      "id": 4,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "publication_year": 1813,
+      "genere": "George Orwell"
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 9
+    },
+    {
+      "title": "a",
+      "author": "a",
+      "genere": "",
+      "publication_year": "",
+      "id": 24
+    },
+    {
+      "title": null,
+      "author": null,
+      "genere": null,
+      "publication_year": null,
+      "id": 25
+    },
+    {
+      "title": null,
+      "author": null,
+      "genere": null,
+      "publication_year": null,
+      "id": 26
+    },
+    {
+      "title": null,
+      "author": null,
+      "genere": null,
+      "publication_year": null,
+      "id": 27
+    },
+    {
+      "title": null,
+      "author": null,
+      "genere": null,
+      "publication_year": null,
+      "id": 28
+    },
+    {
+      "title": null,
+      "author": null,
+      "genere": null,
+      "publication_year": null,
+      "id": 29
+    },
+    {
+      "title": null,
+      "author": null,
+      "genere": null,
+      "publication_year": null,
+      "id": 30
+    },
+    {
+      "title": null,
+      "author": null,
+      "genere": null,
+      "publication_year": null,
+      "id": 33
+    },
+    {
+      "title": "s",
+      "author": "ss",
+      "genere": null,
+      "publication_year": null,
+      "id": 34
+    },
+    {
+      "title": "3",
+      "author": "e",
+      "genere": "e",
+      "publication_year": "e",
+      "id": 35
+    },
+    {
+      "title": "e",
+      "author": "e",
+      "genere": "e",
+      "publication_year": "e",
+      "id": 36
+    },
+    {
+      "title": "d",
+      "author": "dd",
+      "genere": "f",
+      "publication_year": "d",
+      "id": 38
+    },
+    {
+      "title": "e",
+      "author": "arisha",
+      "genere": "34568",
+      "publication_year": "rr",
+      "id": 39
+    },
+    {
+      "title": "d",
+      "author": "d",
+      "genere": "dd",
+      "publication_year": "d",
+      "id": 40
+    },
+    {
+      "title": "ss",
+      "author": "s",
+      "genere": "s",
+      "publication_year": "s",
+      "id": 41
+    },
+    {
+      "title": "4",
+      "author": "4",
+      "genere": "4",
+      "publication_year": "4",
+      "id": 42
+      
+    },
+    {
+     
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "publication_year": 1925,
+      "genere": "George Orwell"
+    }
+  ]
+}
